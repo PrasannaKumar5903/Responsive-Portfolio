@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive Portfolio</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./CSS/index.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="menu">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+            <li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <!-- Mobile Menu Icon -->
+        <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner">
+        <div class="banner-content" data-aos="fade-up">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Explore My Journey and Work</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 data-aos="fade-right">About Me</h2>
+        <div class="about-content" data-aos="fade-up">
+            <img src="./Assets/Profile.jpeg" alt="Profile Image" class="profile-img">
+            <div class="about-text">
+                <p>Hello! I'm PRASANNA KUMAR, a passionate Electronics and Communication Engineering student with a knack for embedded systems, full-stack development, and innovative technology solutions. I thrive on creating impactful projects and continuously expanding my skill set.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 data-aos="fade-left">Skills</h2>
+        <div class="skill-list" data-aos="fade-up">
+            <div class="skill-item">
+                <i class="fas fa-code"></i>
+                <h3>Programming</h3>
+                <p>C, C++, Python, JavaScript, Java</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React, Node.js</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-microchip"></i>
+                <h3>Embedded Systems</h3>
+                <p>Arduino, Raspberry Pi, IoT, GSM Modules</p>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-tools"></i>
+                <h3>Tools & Platforms</h3>
+                <p>Git, Docker, Linux, VS Code, Jenkins</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2 data-aos="fade-right">Experience</h2>
+        <div class="experience-list" data-aos="fade-up">
+            <div class="experience-item">
+                <h3>Internship at Acmegrade</h3>
+                <span>January 2024 - March 2024</span>
+                <p>Worked on embedded systems development, focusing on real-time project management and IoT applications.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Internship at Pantech e-Learning</h3>
+                <span>June 2023 - July 2023</span>
+                <p>Contributed to advanced embedded systems projects, including the development of smart educational tools.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 data-aos="fade-left">Education</h2>
+        <div class="education-list" data-aos="fade-up">
+            <div class="education-item">
+                <h3>B.E. in Electronics and Communication Engineering</h3>
+                <span>Jeppiaar Engineering College, 2021 - 2025</span>
+                <p>Graduating with honors, focusing on embedded systems, IoT, and full-stack development.</p>
+            </div>
+            <div class="education-item">
+                <h3>High School </h3>
+                <span>M.L.M MAMALLAN MATRICULATION HIGHER SECCONDARY SCHOOL</span>
+                <p>Specialized in Science stream with a focus on Mathematics and Physics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 data-aos="fade-right">My Projects</h2>
+        <div class="project-list" data-aos="fade-up">
+            <div class="project-item">
+                <img src="./Assets/firealaram.jpeg"  alt="Fire Alarm System" class="project-img">
+                <div class="project-info">
+                    <h3>Fire Alarm System</h3>
+                    <p>A fire alarm system using image processing, GSM module, and Arduino Nano to detect and notify in real-time.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-item">
+                <iframe src="./Assets/robot.mp4" frameborder="0" width="100%" height="50%"> </iframe>
+                <div class="project-info">
+                    <h3>Obstacle Avoidance Robot</h3>
+                    <p>An autonomous robot using ultrasonic sensors and Arduino to navigate and avoid obstacles effectively.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <h2 data-aos="fade-left">Blog</h2>
+        <div class="blog-list" data-aos="fade-up">
+            <div class="blog-item">
+                <img src="./Assets/embedded system.jpg" alt="Understanding Embedded Systems" class="blog-img">
+                <div class="blog-info">
+                    <h3>Understanding Embedded Systems</h3>
+                    <p>An introduction to embedded systems, their components, and real-world applications.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="./Assets/full-stack1200.png" alt="Full-Stack Development in 2024" class="blog-img">
+                <div class="blog-info">
+                    <h3>Full-Stack Development in 2024</h3>
+                    <p>A comprehensive look at the latest trends and technologies in full-stack development.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 data-aos="fade-right">Contact Me</h2>
+        <div class="contact-content" data-aos="fade-up">
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> example@email.com</p>
+                <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Street Name, City, Country</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <!-- Add more social links as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <!-- AOS Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Link to JS -->
+    <script src="./JavaScript/index.js"></script>
+</body>
+</html>
